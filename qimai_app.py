@@ -47,6 +47,7 @@ def login(url):
 
             get_html(browser.page_source)
 
+
     time.sleep(10)
     print(len(company))
     browser.close()
